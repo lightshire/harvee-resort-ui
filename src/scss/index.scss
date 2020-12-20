@@ -1,2 +1,11 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import './custom.scss';
+
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding-top: 0 !important;;
+}
