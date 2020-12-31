@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98eff556-8555-4735-bee3-a113c21bc2c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/public/images/carousel_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/carousel_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/carousel_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/carousel_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featurette_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featurette_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featurette_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,7 +46,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608503919858</updated>
       <workItem from="1608503922539" duration="972000" />
-      <workItem from="1608505238820" duration="1038000" />
+      <workItem from="1608505238820" duration="1571000" />
+      <workItem from="1608507060243" duration="10000" />
+      <workItem from="1609392963603" duration="12000" />
     </task>
     <servers />
   </component>
