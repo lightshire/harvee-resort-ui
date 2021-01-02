@@ -4684,7 +4684,7 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
-jquery@^3.5.1:
+jquery@>=1.7.0, jquery@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
@@ -4861,6 +4861,69 @@ levn@^0.3.0, levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
+
+lg-autoplay@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lg-autoplay/-/lg-autoplay-1.2.1.tgz#b512bdb10332e0f73af9e3a96b0a52f3f6d3cf23"
+  integrity sha512-YoDMAZLdTgZcLpP/U2cNuKdmkCZOminP/FaRS3Xf6C2XwAedajPRVGM5oQSoI7Ybw5jQ2bOGKz1/hT4jlg7r/g==
+  dependencies:
+    jquery ">=1.7.0"
+
+lg-fullscreen@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lg-fullscreen/-/lg-fullscreen-1.2.1.tgz#9402aae62ce22148e13bee2fb177f2195dbbfbd6"
+  integrity sha512-mntHGBHEKWfbz/ZiFkWQhBgxzm8ZtWUcgI83GOv9uxmtGi5G9mhTxplkHODHNt9+Ss+IHYZJav/UTjcGPIcSVw==
+  dependencies:
+    jquery ">=1.7.0"
+
+lg-hash@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/lg-hash/-/lg-hash-1.0.4.tgz#ce9bb23426b23110e1feb4ecea1fb8a45d3104f8"
+  integrity sha1-zpuyNCayMRDh/rTs6h+4pF0xBPg=
+  dependencies:
+    jquery ">=1.7.0"
+
+lg-pager@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/lg-pager/-/lg-pager-1.0.2.tgz#e9d928de8f9fa440151d0eab8265dcfb9accb041"
+  integrity sha1-6dko3o+fpEAVHQ6rgmXc+5rMsEE=
+  dependencies:
+    jquery ">=1.7.0"
+
+lg-share@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lg-share/-/lg-share-1.2.1.tgz#0b3a4caec42ee7158e7d687df4240a1b34e6d0c7"
+  integrity sha512-DqRj2ahty5oNP0CiRTVs1PbS0K8BTZd20oIL3RO95Ze50SFme94fDn3zcay8DMgWVphb1ULgVEVNort3dqh5mg==
+  dependencies:
+    jquery ">=1.7.0"
+
+lg-thumbnail@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/lg-thumbnail/-/lg-thumbnail-1.2.1.tgz#9cb90c36896c51159ea36592fa4ba9bcf164504b"
+  integrity sha512-Z4LUYJgz/CeTgyruLNN4FGHmS21KAIk9lOVjq3kDDNNncgc74Tul9Mp9mvXfbO36SrJVNyfTQWnHzAEvYDv3aQ==
+  dependencies:
+    jquery ">=1.7.0"
+
+lg-video@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/lg-video/-/lg-video-1.4.0.tgz#814449a4c3b9a3c74ecfd388ddba0d03b8154fee"
+  integrity sha512-Ae6H9B8NT32min2482yZ5/eZantW33d4TnHBNy3DMQc2Z060naZydNNBCXhlVkuZ3NbQ9veZUZ23kmrrbCx4pQ==
+  dependencies:
+    jquery ">=1.7.0"
+
+lg-zoom@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/lg-zoom/-/lg-zoom-1.3.0.tgz#52e466a487f8b53cd3fe6e853152a042e2fca6cd"
+  integrity sha512-+hZmeZ3DQslAA19tpKSA3kpiwrbB/weRC7b7GiCQEqDaEon1mp1RDQKHfx32gbbeQNGVhBFAiSvB3OHbimVmbg==
+  dependencies:
+    jquery ">=1.7.0"
+
+lightgallery@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/lightgallery/-/lightgallery-1.10.0.tgz#74ae0c198784a235159885588842ed5123e14b94"
+  integrity sha512-3yjU2JATPFQxbcA0GglkWrdwC3Fjy9jjlvDymCrH4JizU2hN60z3r1Q4almFGcV/YFKIDWnD5k8o7zvFcTdaMg==
+  dependencies:
+    jquery ">=1.7.0"
 
 lint-staged@^8.2.1:
   version "8.2.1"
