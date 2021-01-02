@@ -169,12 +169,12 @@ body {
 .footer {
   background: #0E6779;
   padding: 20px;
-  
+
 }
 
 .slick-arrow {
   &::before {
-    color: #000;
+    color: #000 !important;
   }
 }
 
@@ -210,4 +210,19 @@ body {
   img {
     height: 250px;
   }
+}
+
+.brands {
+   a {
+     color: #fff !important;
+   }
+}
+
+.footer {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+   p {
+     font-size: 12px;
+   }
 }
