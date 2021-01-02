@@ -353,6 +353,7 @@
       <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <script type='text/javascript'>
         $(document).ready(function () {
+          var galleries = 30;
           var rooms = {
             amihan: 30,
             anahaw: 21,
@@ -368,11 +369,10 @@
             pavilion: 41
           };
 
-          Object.keys(rooms).forEach(function (key) {
-            for (var i = 1; i < 5; i++) {
-              $('.galleries').append(`<a href='./public/images/${key}/${i}.jpg'><img src='./public/images/${key}/${i}.jpg' class='img-thumbnail m-2' /></a>`)
-            }
-          });
+          for(var i = 1; i < galleries; i++) {
+            $('.galleries').append(`<a href='./public/images/gallery/${i}.jpg'><img src='./public/images/gallery/${i}.jpg' class='img-thumbnail m-2' /></a>`)
+
+          }
 
           $('.galleries').lightGallery({
             thumbnail: true
