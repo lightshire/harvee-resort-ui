@@ -49,11 +49,21 @@ body {
 
 .header {
   .caption {
-    width: 600px;
+     width: 600px;
+     padding: 40px;
+     position: absolute;
+     right: 0;
+     bottom: -60px;
+     background: #0E6779;
+     font-family: "Poppins", sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 18px;
+     color: #fff;
+   }
+  .caption-sm {
     padding: 40px;
-    position: absolute;
-    right: 0;
-    bottom: -60px;
     background: #0E6779;
     font-family: "Poppins", sans-serif;
     font-style: normal;
