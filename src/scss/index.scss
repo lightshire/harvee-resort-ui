@@ -206,6 +206,33 @@ body {
   }
 }
 
+.modal {
+  .modal-header {
+    border-bottom: none;
+  }
+  .modal-footer {
+    border-top: none;
+  }
+  .btn-primary {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 15px;
+    background: #0E6779;
+    border: 1px solid #0E6779;
+  }
+  .btn-secondary {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 15px;
+    background: red;
+    border: 1px solid red;
+  }
+}
+
 .galleries {
   img {
     height: 250px;
