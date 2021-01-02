@@ -1,7 +1,6 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 @import './custom.scss';
 
-
 .poppins {
   font-family: 'Poppins', sans-serif;
 }
@@ -194,5 +193,11 @@ body {
     font-size: 12px;
     font-family: "Poppins", sans-serif;
     padding: 24px 48px;
+  }
+}
+
+.slick-arrow {
+  &::before {
+    color: #000;
   }
 }
