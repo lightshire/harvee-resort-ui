@@ -10,10 +10,127 @@
     <meta name="author" content="" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
     <title>Batis Resort</title>
   </head>
-
   <body>
+      <nav class="navbar navbar-expand-lg navbar-main">
+        <div class='container'>
+          <a class="navbar-brand" href="#"><img src='./public/images/logo.png' class='logo'></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class='nav-item'>
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class='nav-item'>
+                <a class="nav-link booking-button" href="#">Book Now</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class='header'>
+        <div class='header-text'>
+          <div class='container'>
+            <h5 class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h5>
+            <h4 class='title'>BATIS</h4>
+            <h3 class='subtitle'>Aramin</h3>
+          </div>
+        </div>
+        <div class='header-gradient'>&nbsp;</div>
+        <div class='header-background' style='background-image:url(./public/images/main-banner.png);'>&nbsp;</div>
+        <div class='caption'>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+      </div>
+      <div class='about-us'>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-md-4'>
+              <img src='./public/images/about-us.png' class='img-fluid' />
+            </div>
+            <div class='col-md-6'>
+              <h3 class='title'>ABOUT US</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='take-a-break mt-5' style='background-image: url("./public/images/breaker.png");'>
+        <div class='take-a-break-content'>
+          <h3>PSST, TAKE A BREAK</h3>
+          <a href='#' class='booking-button nav-item'>BOOK NOW</a>
+        </div>
+      </div>
+      <div class='insta-feed'>
+        <div class='container'>
+          <h3 class='title'>Gallery</h3>
+          <div id='instagram-feed'></div>
+        </div>
+      </div>
+      <div class='footer-booking'>
+        <div class='col-sm-12 col-md-6 offset-md-3'>
+            <h3 class='title'>
+              Book Now
+            </h3>
+            <form action='#'>
+              <div class='row'>
+                <div class='col-md-6 col-sm-12'>
+                  <div class='form-group'>
+                    <label>Name</label>
+                    <input type='text' class='form-control' />
+                  </div>
+                </div>
+                <div class='col-md-6 col-sm-12'>
+                  <div class='form-group'>
+                    <label>Email</label>
+                    <input type='text' class='form-control' />
+                  </div>
+                </div>
+                <div class='col-md-6 col-sm-12'>
+                  <div class='form-group'>
+                    <label>From</label>
+                    <input type='text' class='form-control' />
+                  </div>
+                </div>
+                <div class='col-md-6 col-sm-12'>
+                  <div class='form-group'>
+                    <label>To</label>
+                    <input type='text' class='form-control' />
+                  </div>
+                </div>
+              </div>
+              <div class='col-md-12 text-center'>
+                <button class='btn btn-primary btn-lg'>BOOK NOW</button>
+              </div>
+            </form>
+        </div>
+      </div>
+      <script type='text/javascript' src='public/vendor-js/instagram.js'></script>
+      <script>
+        (function(){
+          new InstagramFeed({
+            'username': 'batisaramin',
+            'container': document.getElementById("instagram-feed"),
+            'display_profile': false,
+            'display_biography': false,
+            'display_gallery': true,
+            'display_captions': false,
+            'callback': null,
+            'styling': true,
+            'items': 24,
+            'items_per_row': 4,
+            'margin': 1,
+            'lazy_load': true,
+            'on_error': console.error
+          });
+        })();
+      </script>
   </body>
 </html>
