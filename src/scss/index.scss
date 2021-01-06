@@ -262,6 +262,15 @@ body {
   }
 }
 
+.wedding-packages {
+  text-align: center;
+  .wedding-package {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+
 .brands {
    a {
      color: #fff !important;
