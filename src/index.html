@@ -225,6 +225,16 @@
           </div>
         </div>
       </div>
+      <div class='wedding-packages'>
+        <div class='container'>
+          <h3 class='title'>Wedding Packages</h3>
+          <div class='wedding-package'>
+            <a href='./public/images/covers/wedding.JPG'>
+              <img src='./public/images/covers/wedding.JPG' class='img-thumbnail m-2' />
+            </a>
+          </div>
+        </div>
+      </div>
       <div class='gallery' id='gallery-section'>
         <div class='container'>
           <h3 class='title'>Gallery</h3>
@@ -409,6 +419,10 @@
           $('.galleries').lightGallery({
             thumbnail: true
           });
+
+          $('.wedding-package').lightGallery({
+            thumbnail: true
+          })
 
           var container = document.querySelector('.galleries');
           var msnry = new Masonry( container, {

@@ -138,6 +138,18 @@ body {
   }
 }
 
+.wedding-packages {
+  margin-top: 64px;
+  .title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #0E6779;;
+  }
+}
+
 .take-a-break {
   background-size: cover;
   .take-a-break-content {
@@ -244,7 +256,7 @@ body {
   }
 }
 
-.galleries {
+.galleries, .wedding-packages {
   img {
     height: 250px;
   }

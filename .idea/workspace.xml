@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98eff556-8555-4735-bee3-a113c21bc2c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/adventure camp.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/anahaw cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/fidez house cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/garden rooms cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/harana cover page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/hilltop cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/infinity pool cover.HEIC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/jm rooms cover.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/magara cover.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/marikit cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/marikit suite cover.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/maze cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/pavillion cover.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/pretty paw cover.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/covers/rainbow house cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/covers/wedding.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
@@ -47,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/images/covers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images\covers" />
       <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images\fidez" />
       <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images" />
     </key>
@@ -84,7 +71,7 @@
       <workItem from="1609577996466" duration="1994000" />
       <workItem from="1609592307407" duration="15455000" />
       <workItem from="1609609853064" duration="258000" />
-      <workItem from="1609944639605" duration="934000" />
+      <workItem from="1609944639605" duration="1457000" />
     </task>
     <servers />
   </component>
