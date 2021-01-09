@@ -245,6 +245,13 @@ body {
     background: #0E6779;
     border: 1px solid #0E6779;
   }
+  .btn-info {
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
   .btn-secondary {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -290,4 +297,16 @@ body {
 .img-container {
   height: 280px;
   overflow: hidden;
+}
+
+.show-summary {
+  p {
+    font-family: "Poppins", sans-serif;
+    > strong {
+      display: block;
+    }
+    > span {
+
+    }
+  }
 }

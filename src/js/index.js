@@ -57,6 +57,28 @@ $('#room_type').on('change', function() {
   setRoomType($(this).val());
 });
 
+$('.btn-booking').on('click', () => {
+  $('.show-summary .name').html($('#name').val());
+  $('.show-summary .pax').html($('#pax').val());
+  $('.show-summary .from').html($('#from').val());
+  $('.show-summary .to').html($('#to').val());
+  $('.show-summary .mobile_number').html($('#mobile_number').val());
+  $('.show-summary .email').html($('#email').val());
+  $('.show-summary .room_info').html($('#room_info').val());
+  $('.show-summary .room_type').html($('#room_type').val());
+  $('.btn-summary').show();
+  $('.btn-booking').hide();
+  $('.booking-form').hide();
+  $('.show-summary').show();
+});
+
+$('.btn-edit-details').on('click', () => {
+  $('.btn-summary').hide();
+  $('.btn-booking').show();
+  $('.booking-form').show();
+  $('.show-summary').hide();
+});
+
 $('.btn-booking-finalize').on('click', () => {
   $('.btn-booking-finalize').html(`
     <div class="spinner-border text-info spinner-border-sm" role="status">
@@ -72,6 +94,7 @@ $('.btn-booking-finalize').on('click', () => {
       mobile_number: $('#mobile_number').val(),
       room_type: room_type,
       email: $('#email').val(),
+      room_info: $('#room_info').val(),
     })
     .then(() => {
       $('.btn-booking-finalize').html(`
