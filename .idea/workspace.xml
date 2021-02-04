@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98eff556-8555-4735-bee3-a113c21bc2c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/public/images/infinity pool cover.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/images/infinity_pool_cover.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/gallery/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/images/gallery/19.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/images/gallery" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -42,9 +45,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images\gallery" />
+      <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images" />
       <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images\covers" />
       <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images\fidez" />
-      <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gians\Code\harvee-resort-ui\src\public\images\covers" />
@@ -72,7 +76,8 @@
       <workItem from="1609944639605" duration="4691000" />
       <workItem from="1610219788007" duration="1688000" />
       <workItem from="1610658439618" duration="840000" />
-      <workItem from="1610937118232" duration="283000" />
+      <workItem from="1610937118232" duration="496000" />
+      <workItem from="1612473040027" duration="606000" />
     </task>
     <servers />
   </component>
